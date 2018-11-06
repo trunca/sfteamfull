@@ -760,6 +760,7 @@
 
 	<screen name="SoftcamSetup" position="fill" flags="wfNoBorder">
 		<panel name="PigTemplate"/>
+		<ePixmap pixmap="SFTEAM-FULLHD/logos/menu_Softcam.png" position="0,0" size="1920,1080" alphatest="blend" zPosition="-11" />
 		<widget name="config" position="780,105" size="1110,150" itemHeight="38" font="Regular;28" scrollbarMode="showOnDemand"/>
 		<widget name="info" position="780,315" size="1110,637" font="Fixed;27"/>
 	</screen>
@@ -1212,17 +1213,20 @@
 
 	<screen flags="wfNoBorder" name="SoftwareManagerSetup" position="fill" title="SoftwareManager setup">
 		<panel name="PigTemplate"/>
+		<ePixmap pixmap="SFTEAM-FULLHD/logos/menu1.png" position="0,0" size="1920,1080" alphatest="blend" zPosition="-11" />
 		<widget name="config" position="780,100" size="1110,912" itemHeight="38" font="Regular;28" transparent="1" scrollbarMode="showOnDemand"/>
 		<widget source="introduction" render="Label" position="30,570" size="720,300" zPosition="10" font="Regular;30" halign="center" valign="center" backgroundColor="#25062748" transparent="1"/>
 	</screen>
 
 	<screen name="BackupScreen" title="Backup is running" position="fill" flags="wfNoBorder">
 		<panel name="PigTemplate"/>
+		<ePixmap pixmap="SFTEAM-FULLHD/logos/menu1.png" position="0,0" size="1920,1080" alphatest="blend" zPosition="-11" />
 		<widget name="config" position="780,100" size="1110,912" itemHeight="38" font="Regular;28" transparent="1" scrollbarMode="showOnDemand"/>
 	</screen>
 
 	<screen name="BackupSelection" title="Select files/folders to backup" position="fill" flags="wfNoBorder">
 		<panel name="PigTemplate"/>
+		<ePixmap pixmap="SFTEAM-FULLHD/logos/menu1.png" position="0,0" size="1920,1080" alphatest="blend" zPosition="-11" />
 		<widget name="checkList" position="780,100" size="1110,912" itemHeight="38" font="Regular;28" backgroundColor="background" zPosition="3" transparent="1" scrollbarMode="showOnDemand"/>
 	</screen>
 
@@ -1381,6 +1385,7 @@
 
 	<screen name="RestoreScreen" title="Restore is running" position="fill" flags="wfNoBorder">
 		<panel name="PigTemplate"/>
+		<ePixmap pixmap="SFTEAM-FULLHD/logos/menu1.png" position="0,0" size="1920,1080" alphatest="blend" zPosition="-11" />
 		<widget name="config" position="780,100" size="1110,912" itemHeight="38" font="Regular;28" transparent="1" scrollbarMode="showOnDemand"/>
 	</screen>
 
@@ -1388,18 +1393,21 @@
 
 	<screen name="RestoreMenu" title="Restore Backups" position="fill" flags="wfNoBorder">
 		<panel name="PigTemplate"/>
+		<ePixmap pixmap="SFTEAM-FULLHD/logos/menu1.png" position="0,0" size="1920,1080" alphatest="blend" zPosition="-11" />
 		<widget name="filelist" position="780,100" size="1110,912" itemHeight="38" font="Regular;28" backgroundColor="darkgrey" zPosition="3" transparent="1" scrollbarMode="showOnDemand"/>
 	</screen>
 
 	<!-- ImageWizard -->
 
 	<screen name="ImageWizard" position="fill" flags="wfNoBorder">
-		<panel name="PigTemplate"/>
+	    <panel name="PigTemplate"/>
+		<ePixmap pixmap="SFTEAM-FULLHD/logos/menu1.png" position="0,0" size="1920,1080" alphatest="blend" zPosition="-11" />
 		<eLabel text="Welcome..." position="30,7" size="1830,75" backgroundColor="secondBG" transparent="1" zPosition="1" font="Regular;36" valign="center" halign="left"/>
 		<widget name="text" position="1090,153" size="510,495" font="Regular;33"/>
 		<widget source="list" render="Listbox" position="864,661" size="735,270" scrollbarMode="showOnDemand">
 			<convert type="StringList"/>
 		</widget>
+		<ePixmap pixmap="SFTEAM-FULLHD/logos/menu1.png" position="0,0" size="1920,1080" alphatest="blend" zPosition="-11" />
 		<widget name="config" position="127,655" size="637,270" itemHeight="38" font="Regular;28" transparent="1" zPosition="1" scrollbarMode="showOnDemand"/>
 		<ePixmap pixmap="SFTEAM-FULLHD/buttons/red.png" position="810,485" size="34,34" alphatest="on"/>
 		<widget name="languagetext" position="860,485" size="165,34" font="Regular;28"/>
@@ -1409,6 +1417,7 @@
 
 	<screen name="SoftwareManagerInfo" title="SoftwareManager information" position="fill" flags="wfNoBorder">
 		<panel name="PigTemplate"/>
+		<ePixmap pixmap="SFTEAM-FULLHD/logos/menu1.png" position="0,0" size="1920,1080" alphatest="blend" zPosition="-11" />
 		<widget source="list" render="Listbox" position="780,100" size="1110,912" scrollbarMode="showOnDemand" selectionDisabled="0">
 		<convert type="TemplatedMultiContent">
 			{"template": [
@@ -1420,10 +1429,12 @@
 		</convert>
 		</widget>
 		<widget source="introduction" render="Label" position="30,560" size="720,34" zPosition="10" font="Regular;30" halign="left" backgroundColor="secondBG" transparent="1"/>
+		<ePixmap pixmap="SFTEAM-FULLHD/logos/menu1.png" position="0,0" size="1920,1080" alphatest="blend" zPosition="-11" />
 	</screen>
 
 	<screen name="AdapterSetupConfiguration" position="fill" flags="wfNoBorder">
 		<panel name="PigTemplate"/>
+		<ePixmap pixmap="SFTEAM-FULLHD/logos/menu1.png" position="0,0" size="1920,1080" alphatest="blend" zPosition="-11" />
 		<widget name="menulist" position="780,105" size="1110,456" itemHeight="38" font="Regular;28" zPosition="10" scrollbarMode="showOnDemand"/>
 		<widget source="description" render="Label" position="780,547" size="1110,300" transparent="1" font="Regular;31" valign="center" halign="center"/>
 		<widget source="IFtext" render="Label" position="1270,880" size="247,37" transparent="1" zPosition="10" font="Regular;31" halign="right"/>
@@ -1435,6 +1446,7 @@
 	<screen name="AdapterSetup" position="fill" flags="wfNoBorder">
 		<panel name="PigTemplate"/>
 		<panel name="KeyTextTemplate"/>
+		<ePixmap pixmap="SFTEAM-FULLHD/logos/menu1.png" position="0,0" size="1920,1080" alphatest="blend" zPosition="-11" />
 		<widget name="config" position="780,105" size="1110,418" itemHeight="38" font="Regular;28" scrollbarMode="showOnDemand"/>
 		<widget source="introduction" render="Label" position="780,619" size="1110,40" font="Regular;33" halign="center"/>
 		<widget source="IPtext" render="Label" position="780,675" size="225,37" zPosition="1" foregroundColor="grey" font="Regular;31" halign="left"/>
@@ -1457,12 +1469,14 @@
 
 	<screen name="NameserverSetup" position="fill" flags="wfNoBorder">
 		<panel name="PigTemplate"/>
+		<ePixmap pixmap="SFTEAM-FULLHD/logos/menu1.png" position="0,0" size="1920,1080" alphatest="blend" zPosition="-11" />
 		<widget name="config" position="780,105" size="1110,646" itemHeight="38" font="Regular;28" scrollbarMode="showOnDemand"/>
 		<widget source="introduction" render="Label" position="780,975" size="1110,34" transparent="1" zPosition="10" font="Regular;30" valign="center" halign="center"/>
 	</screen>
 
 	<screen name="NetworkAdapterSelection" position="fill" flags="wfNoBorder">
 		<panel name="PigTemplate"/>
+		<ePixmap pixmap="SFTEAM-FULLHD/logos/menu1.png" position="0,0" size="1920,1080" alphatest="blend" zPosition="-11" />
 		<widget source="list" render="Listbox" position="780,105" size="1110,420" zPosition="10" scrollbarMode="showOnDemand">
 			<convert type="TemplatedMultiContent">
 				{"template": [
@@ -1481,6 +1495,7 @@
 
 	<screen name="NetworkAdapterTest" title="Network test" position="fill" flags="wfNoBorder">
 		<panel name="PigTemplate"/>
+		<ePixmap pixmap="SFTEAM-FULLHD/logos/menu1.png" position="0,0" size="1920,1080" alphatest="blend" zPosition="-11" />
 		<widget name="InfoText" position="780,105" size="1100,455" zPosition="25" font="Regular;31"/>
 		<widget name="InfoTextBorder" position="780,108" size="1110,525"/>
 
@@ -1521,6 +1536,7 @@
 
 	<screen name="NetworkBrowser" title="Network Neighbourhood" position="fill" flags="wfNoBorder">
 		<panel name="PigTemplate"/>
+		<ePixmap pixmap="SFTEAM-FULLHD/logos/menu1.png" position="0,0" size="1920,1080" alphatest="blend" zPosition="-11" />
 		<widget source="list" render="Listbox" position="780,105" size="1110,858" zPosition="10" scrollbarMode="showOnDemand">
 			<convert type="TemplatedMultiContent">
 		{"template": [
@@ -1537,10 +1553,12 @@
 	</convert>
 		</widget>
 		<widget source="infotext" render="Label" position="780,975" size="1110,34" transparent="1" zPosition="10" font="Regular;30" valign="center" halign="center"/>
+		<ePixmap pixmap="SFTEAM-FULLHD/logos/menu1.png" position="0,0" size="1920,1080" alphatest="blend" zPosition="-11" />
 	</screen>
 
 	<screen name="AutoMountManager" title="MountManager" position="fill" flags="wfNoBorder">
 		<panel name="PigTemplate"/>
+		<ePixmap pixmap="SFTEAM-FULLHD/logos/menu1.png" position="0,0" size="1920,1080" alphatest="blend" zPosition="-11" />
 		<widget source="config" render="Listbox" position="780,105" size="1110,720" transparent="1" scrollbarMode="showOnDemand">
 			<convert type="TemplatedMultiContent">
 				{"template": [
@@ -1554,10 +1572,12 @@
 			</convert>
 		</widget>
 		<widget source="introduction" render="Label" position="780,975" size="1110,34" backgroundColor="darkgrey" shadowColor="black" shadowOffset="-2,-2" zPosition="1" transparent="1" font="Regular;30" halign="center"/>
+		<ePixmap pixmap="SFTEAM-FULLHD/logos/menu1.png" position="0,0" size="1920,1080" alphatest="blend" zPosition="-11" />
 	</screen>
 
 	<screen name="UserManager" title="UserManager" position="fill" flags="wfNoBorder">
 		<panel name="PigTemplate"/>
+		<ePixmap pixmap="SFTEAM-FULLHD/logos/menu1.png" position="0,0" size="1920,1080" alphatest="blend" zPosition="-11" />
 		<widget source="config" render="Listbox" position="780,105" size="1110,630" zPosition="3" transparent="1" scrollbarMode="showOnDemand">
 			<convert type="TemplatedMultiContent">
 				{"template": [
@@ -1570,10 +1590,12 @@
 			</convert>
 		</widget>
 		<widget source="introduction" render="Label" position="780,975" size="1110,34" backgroundColor="background" transparent="1" font="Regular;30" halign="center"/>
+		<ePixmap pixmap="SFTEAM-FULLHD/logos/menu1.png" position="0,0" size="1920,1080" alphatest="blend" zPosition="-11" />
 	</screen>
 
 	<screen name="AutoMountView" position="fill" flags="wfNoBorder">
 		<panel name="PigTemplate"/>
+		<ePixmap pixmap="SFTEAM-FULLHD/logos/menu1.png" position="0,0" size="1920,1080" alphatest="blend" zPosition="-11" />
 		<widget source="legend1" render="Label" position="780,105" size="300,75" transparent="1" zPosition="1" font="Regular;27" valign="center" halign="left"/>
 		<widget source="legend2" render="Label" position="1080,105" size="525,75" transparent="1" zPosition="1" font="Regular;27" valign="center" halign="center"/>
 		<widget source="legend3" render="Label" position="1590,105" size="300,75" transparent="1" zPosition="1" font="Regular;27" valign="center" halign="right"/>
@@ -1593,11 +1615,13 @@
 	</convert>
 		</widget>
 		<widget source="introduction" render="Label" position="780,975" size="1110,34" transparent="1" zPosition="10" font="Regular;30" valign="center" halign="center"/>
+		<ePixmap pixmap="SFTEAM-FULLHD/logos/menu1.png" position="0,0" size="1920,1080" alphatest="blend" zPosition="-11" />
 	</screen>
 
 	<screen name="AutoMountEdit" title="MountEdit" position="fill" flags="wfNoBorder">
 		<panel name="PigTemplate"/>
 		<panel name="VKeyIconPanel"/>
+		<ePixmap pixmap="SFTEAM-FULLHD/logos/menu1.png" position="0,0" size="1920,1080" alphatest="blend" zPosition="-11" />
 		<widget name="config" position="780,105" size="1110,412" itemHeight="38" font="Regular;28" backgroundColor="darkgrey" zPosition="3" transparent="1" scrollbarMode="showOnDemand"/>
 		<widget name="HelpWindow" position="960,600" size="1,1" zPosition="1" transparent="1" alphatest="on"/>
 		<widget source="introduction" render="Label" position="780,975" size="1110,34" backgroundColor="darkgrey" shadowColor="black" shadowOffset="-2,-2" zPosition="1" transparent="1" font="Regular;30" halign="center"/>
@@ -1606,6 +1630,7 @@
 	<screen name="UserDialog" position="fill" title="UserDialog" flags="wfNoBorder">
 		<panel name="PigTemplate"/>
 		<panel name="VKeyIconPanel"/>
+		<ePixmap pixmap="SFTEAM-FULLHD/logos/menu1.png" position="0,0" size="1920,1080" alphatest="blend" zPosition="-11" />
 		<widget name="config" position="780,105" size="1110,412" itemHeight="38" font="Regular;28" backgroundColor="darkgrey" zPosition="3" transparent="1" scrollbarMode="showOnDemand"/>
 		<widget name="HelpWindow" position="960,600" size="1,1" zPosition="1" transparent="1" alphatest="on"/>
 		<widget source="introduction" render="Label" position="780,975" size="1110,34" backgroundColor="darkgrey" shadowColor="black" shadowOffset="-2,-2" zPosition="1" transparent="1" font="Regular;30" halign="center"/>
@@ -1613,6 +1638,7 @@
 
 	<screen name="ScanIP" position="fill" title="Scan IP" flags="wfNoBorder">
 		<panel name="PigTemplate"/>
+		<ePixmap pixmap="SFTEAM-FULLHD/logos/menu1.png" position="0,0" size="1920,1080" alphatest="blend" zPosition="-11" />
 		<widget name="config" position="780,105" size="1110,38" itemHeight="38" font="Regular;28" scrollbarMode="showOnDemand"/>
 	</screen>
 
@@ -1835,6 +1861,7 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2, orgpos.y() + (or
 
 	<screen name="LanguageSelection" title="Language selection" position="fill" flags="wfNoBorder">
 		<panel name="PigTemplate"/>
+		<ePixmap pixmap="SFTEAM-FULLHD/logos/menu1.png" position="0,0" size="1920,1080" alphatest="blend" zPosition="-11" />
 		<widget source="languages" render="Listbox" position="780,99" size="1110,918" scrollbarMode="showOnDemand" >
 			<convert type="TemplatedMultiContent">
 	{"template": [
@@ -1852,6 +1879,7 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2, orgpos.y() + (or
 
 	<screen name="SkinSelector" position="fill" flags="wfNoBorder">
 		<panel name="SelectionTemplate"/>
+		<ePixmap pixmap="SFTEAM-FULLHD/logos/menu1.png" position="0,0" size="1920,1080" alphatest="blend" zPosition="-11" />
 		<widget name="Preview" position="165,600" size="420,315" alphatest="on"/>
 		<widget name="SkinList" position="780,100" size="1110,912" itemHeight="38" font="Regular;28" scrollbarMode="showOnDemand"/>
 		<widget source="introduction" render="Label" position="780,975" size="1110,34" zPosition="1" transparent="1" font="Regular;30" halign="center"/>
@@ -2039,11 +2067,13 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2, orgpos.y() + (or
 
 	<screen name="About" position="fill" flags="wfNoBorder">
 		<panel name="PigTemplate"/>
+		<ePixmap pixmap="SFTEAM-FULLHD/logos/menu1.png" position="0,0" size="1920,1080" alphatest="blend" zPosition="-11" />
 		<widget name="AboutScrollLabel" font="Regular;28" position="780,100" size="1110,912" zPosition="2" split="1" dividechar=":" colposition="0"/>
 	</screen>
 	<!-- Memory Info -->
 	<screen name="MemoryInfo" position="fill" flags="wfNoBorder">
 		<panel name="PigTemplate"/>
+		<ePixmap pixmap="SFTEAM-FULLHD/logos/menu1.png" position="0,0" size="1920,1080" alphatest="blend" zPosition="-11" />
 		<widget name="lmemtext"  font="Regular;30" position="780,100" size="450,910" zPosition="1" halign="left" backgroundColor="secondBG" transparent="1"/>
 		<widget name="lmemvalue" font="Regular;30" position="780,100" size="450,910" zPosition="2" halign="right" backgroundColor="secondBG" transparent="1"/>
 		<widget name="rmemtext"  font="Regular;30" position="1440,100" size="450,910" zPosition="1" halign="left" backgroundColor="secondBG" transparent="1"/>
